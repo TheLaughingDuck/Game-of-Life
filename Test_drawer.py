@@ -1,4 +1,4 @@
-import Windmodule
+import Main_files.Windmodule as Windmodule
 
 neighbours = [[0,0,0,0,0], [0,0,0,0,0], [0,0,0,0,0], [0,0,0,0,0], [0,0,0,0,0]]
 
