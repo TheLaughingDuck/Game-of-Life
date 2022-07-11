@@ -1,5 +1,5 @@
 import Field_operator
-import Field_explorer ##
+import Field_explorer
 import Windmodule
 
 import time
@@ -7,6 +7,7 @@ import time
 import sys
 
 def U_Interface_V2():
+    "A more updated User Interface function than the original one."
     global start_time
     start_time = time.time()
 
