@@ -3,10 +3,7 @@ import Field_explorer
 import Windmodule
 
 import time
-
 import sys
-
-
 
 
 def U_Interface_V3():
@@ -173,9 +170,6 @@ def U_Interface_V3():
     main_sheet = Field_operator.Create_random_field(length)
     Windcan = Windmodule.Windclass(Width, Height, "Simply: life")
     return main_sheet, Windcan, Trimming
-
-
-
 
 
 main_sheet, Windcan, Trimming = U_Interface_V3()
